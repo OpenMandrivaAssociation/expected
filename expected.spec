@@ -1,5 +1,5 @@
 Name: expected
-Version: 1.0.0
+Version: 1.3.1
 Release: 1%{?dist}
 
 License: CC0
@@ -9,7 +9,7 @@ Source0: %{url}/archive/v%{version}/%{name}-%{version}.tar.gz
 BuildArch: noarch
 
 # Backported upstream patch with cmake fixes.
-Patch100: %{name}-cmake.patch
+# dropped (no longer applies): Patch100: %{name}-cmake.patch
 
 BuildRequires: ninja
 BuildRequires: cmake
